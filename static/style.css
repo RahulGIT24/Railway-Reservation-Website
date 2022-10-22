@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    margin: 24px 0px;
+
+}
+
+.slider img {
+    height: 70vh;
+    width: 100vw;
+
+}
+
+.slider h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.text {
+    margin: 12px auto;
+    text-align: center;
+}
+
+.cards {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 0 5px;
+}
+
+.cards img {
+    width: 170px;
+}
+
+footer {
+    text-align: center;
+}
+
+form button {
+    margin: 24px auto;
+}
+
+form div {
+    width: 500px;
+}
+
+.col {
+    margin: 24px auto;
+}
+
+#alert {
+    display: none;
+}
+
+input {
+    outline: none;
+}
+
+.images {
+    margin: 22px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    width: 45vw;
+}
+
+.newDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status {
+    text-align: center;
+    background: black;
+    font-size: 34px;
+    border: 2px solid green;
+    color: red;
+    width: 50%;
+}
+
+.status ul {
+    list-style: none;
+    margin: 24px 0;
+}
+
+.status ul li {
+    padding: 12px 0;
+}
+
+.status b {
+    color: white;
+}
+
+.success-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.newText {
+    font-size: 23px;
+    margin-top: 12px;
+}
+
+.receipt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.receipt ul li {
+    padding: 18px 0;
+    list-style: none;
+}
+
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+    flex-direction: column;
+    text-align: center;
+}
+.container-box h1{
+    margin: 24px auto;
+}
+.container-box form{
+    padding-top: 24px ;
+}
+
+#para1{
+    font-size: 23px;
+}

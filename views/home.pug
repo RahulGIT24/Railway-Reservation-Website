@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="../static/images/icon.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.pug">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.pug">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+//-* Image Silder
+<div class="slider">
+    <h1>Welcome to Bhartiya Railway Website</h1>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" my-40 >
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../static/images/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+        <img src="../static/images/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img src="../static/images/3.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</div>
+
+<!-- Text -->
+<div class="text">
+    <h1>Our Services</h1>
+</div>
+
+<!-- Services -->
+<div class="cards">
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="../static/images/you.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Know Your Info</h5>
+              <p class="card-text">Check your information if you have booked tickets.</p>
+              <a href="info.pug"><button type="button" class="btn btn-dark">Check Info</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="../static/images/book.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Book Tickets</h5>
+              <p class="card-text">Book tickets through this website.</p>
+              <a href="booktickets.pug"><button type="button" class="btn btn-dark">Book Tickets</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="../static/images/cancel.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cancel tickets</h5>
+              <p class="card-text">Cancel your booked tickets with this website.</p>
+              <a href="canceltickets.pug"><button type="button" class="btn btn-dark">Cancel Tickets</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="../static/images/check.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Train Status</h5>
+              <p class="card-text">Check your train Status through this website</p>
+              <a href="trainstatus.pug"><button type="button" class="btn btn-dark">Check Status</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <span class="text-muted center">All Copyrights © Reserved</span>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="../static/images/check.png" type="image/x-icon">
+    <title>Train Status</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="home.pug">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.pug">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="text">
+  <h1>Train Status</h1>
+</div>
+
+<div class="newDiv">
+    <div class="status">
+        <ul>
+            <li>Name of Train - <b>Bhartiya Railways</b></li>
+            <li>Destination - <b>Delhi to Pune</b></li>
+            <li>Arrival time - <b>5:30 PM</b></li>
+            <li>Departure time - <b>5:45PM</b></li>
+            <li>Train Chalak - <b>Ram Lal</b></li>
+            <li>Train Code - <b>1001</b></li>
+            <li>Available Seats - <b id="seats">#{remainSeats}</b></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+<script src="../static/index.js">
+
+</script>
+</html>

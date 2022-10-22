@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="../static/images/book.png" type="image/x-icon">
+    <title>Book Tickets Portal</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="home.pug">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.pug">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="text">
+  <h1>Fill this form to book tickets</h1>
+</div>
+
+<div class="row g-3">
+<form action="/booktickets", method="post", class="myForm">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter your name" aria-label="fname" name="name" required>
+    </div>
+    <div class="col">
+      <input type="email" class="form-control" placeholder="Enter your Email" name="email" aria-label="fname" required>
+    </div>
+    <div class="col">
+      <input type="tel" class="form-control" placeholder="Enter your Phone Number" aria-label="fname" required name="phone">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter your Address" aria-label="fname" required name="address">
+    </div>
+    <div class="col">
+      <input type="number" id="seat-form" class="form-control" placeholder="Enter number of seats to be booked" aria-label="fname" name="seats" required min="1">
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-success">Book Tickets</button>
+    </div>
+    </div>
+</form>
+</body>
+<script src="../static/index.js">
+
+</script>
+</html>
